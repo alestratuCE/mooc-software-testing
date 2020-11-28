@@ -24,4 +24,9 @@ public class GettingStartedTest {
         int result = new GettingStarted().addFive(-20);
         Assertions.assertEquals(-15,result);
     }
+    @Test
+    public void addFiveToTwentyEight() {
+        int result = new GettingStarted().addFive(28);
+        Assertions.assertEquals(33,result);
+    }
 }
